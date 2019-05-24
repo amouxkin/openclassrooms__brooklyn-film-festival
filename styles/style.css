@@ -1,0 +1,118 @@
+.cs-carousel-height {
+  height: 70vh;
+}
+
+.cs-jumbotron-1 {
+  height: 100%;
+  background-image: url("../images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.cs-jumbotron-2 {
+  height: 100%;
+  background-image: url("../images/crowd_01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.cs-jumbotron-3 {
+  height: 100%;
+  background-image: url("../images/crowd_02.jpg");
+  background-position: center center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.cs-container-jumbotron-white {
+  position: relative;
+  top: 10%;
+  left: 05%;
+  padding-right: 100px;
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.cs-container-jumbotron-black {
+  position: relative;
+  top: 10%;
+  left: 05%;
+  padding-right: 100px;
+  text-shadow: 1px 1px black;
+}
+
+.cs-carousel-weather-min-height {
+  min-height: 420px;
+}
+
+.cs-card-max-width {
+  max-width: 12rem;
+}
+
+.cs-carousel-weather-bg-black {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.cs-min-height-222 {
+  min-height: 222px;
+}
+
+.cs-padding-left-right-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cs-height-300 {
+  height: 300px;
+}
+
+.cs-font-container {
+  font-size: 2.5rem;
+}
+
+/* Movies*/
+
+.cs-width-auto {
+  width: auto;
+}
+
+.cs-card-movie-width-cursor {
+  width: 100%;
+  cursor: pointer;
+}
+.cs-card-title-1 {
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: 3.6em;
+  line-height: 1.8em;
+}
+
+.cs-margin-top-50 {
+  margin-top: 50px;
+}
+
+.cs-font-size-25 {
+  font-size: 2.5rem;
+}
+
+.cs-img {
+  max-height: 35rem;
+  object-fit: contain;
+}
+
+.cs-p {
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: 4em;
+  line-height: 1.8em;
+}
+
+/* Sign up*/
+.cs-img-objectfit {
+  object-fit: cover;
+}

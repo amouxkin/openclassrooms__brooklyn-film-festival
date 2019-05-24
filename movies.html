@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Brooklyn Outdoor Film Festival</title>
+</head>
+
+<body>
+  <div class="nav_bar navbar-dark bg-dark navbar-expand-sm p-4 container-fluid">
+    <div class="row">
+      <div class="navbar-brand col-md-2 d-md-flex d-none" href="#">
+        <h5 class=" font-weight-bold"><span>Brooklyn <br> Outdoor Film Festival</span></h5>
+      </div>
+      <div class="navbar-brand col-md-2 d-sm-flex d-flex d-md-none justify-content-center " href="#">
+        <h5 class=" font-weight-bold"><span>Brooklyn <br> Outdoor Film Festival</span></h5>
+      </div>
+      <ul class="nav navbar-nav justify-content-center align-items-center col-md-8">
+        <li class="nav-item">
+          <a class="nav-link " href="home.html">Home</a>
+        </li>
+        <li class="nav-item active disabled">
+          <a class="nav-link" href="movies.html">Movies</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="sign-up.html">Sign-up</a>
+        </li>
+      </ul>
+      <div class="col-md-2 d-none">
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="col align-content-center">
+      <ul class="pagination justify-content-center w-100">
+        <li class="page-item disabled"><a class="page-link" href="#">
+            &laquo;</a> </li>
+        <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item disabled"><a class="page-link " href="#">....</a></li>
+        <li class="page-item"><a class="page-link" href="#">8</a></li>
+
+        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid row justify-content-center">
+
+    <div class="col-md-4 justify-content-center">
+      <nav class="navbar navbar-dark ">
+        <div class="container-fluid">
+          <div class="row ">
+            <div class="col-12 justify-content-center">
+              <form class="form-inline d-flex ">
+                <input class="form-control mr-sm-2 cs-width-auto" type="search" placeholder="Search Movie" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </nav>
+      <div>
+        <nav class="navbar navbar-dark text-dark">
+          <ul>
+            <li> <input class="form-check-input position-static p-3 mt-2" type="checkbox" id="blankCheckbox" value="option1"
+                aria-label="..."> Adventure
+            </li>
+            <li> <input class="form-check-input position-static p-3 mt-2" type="checkbox" id="blankCheckbox" value="option1"
+                aria-label="..."> Animation
+            </li>
+            <li> <input class="form-check-input position-static p-3 mt-2" type="checkbox" id="blankCheckbox" value="option1"
+                aria-label="..."> Comedy
+            </li>
+            <li> <input class="form-check-input position-static p-3 mt-2" type="checkbox" id="blankCheckbox" value="option1"
+                aria-label="..."> Drama
+            </li>
+            <li> <input class="form-check-input position-static p-3 mt-2" type="checkbox" id="blankCheckbox" value="option1"
+                aria-label="..."> Musical
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="col-md-6 row" id="movieGroup">
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie01"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie01">
+          <img class="card-img-top cs-img" src="images/adventures-milo-otis.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">The
+            Adventures of Milo and Otis</h5>
+          <div class="card-body collapse" id="movie01">
+            <p class="card-text cs-p">Lovable
+              pet tale about friendship despite differences.</p>
+            <br>
+
+            <a href="
+              https://www.imdb.com/title/tt0097050/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie02"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie02">
+          <img class="card-img-top cs-img" src="images/a-bugs-life-poster.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">A
+            Bug's Life</h5>
+          <div class="card-body collapse" id="movie02">
+            <p class="card-text cs-p">Cute
+              animated tale with some mild peril and scary bugs.</p>
+            <br>
+
+            <a href="
+              https://www.imdb.com/title/tt0120623/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie03"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie03">
+          <img class="card-img-top cs-img" src="images/frozen-poster.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">Frozen</h5>
+          <div class="card-body collapse" id="movie03">
+            <p class="card-text cs-p">A
+              fabulous celebration of sisterhood.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt2294629/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie04"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie04">
+          <img class="card-img-top cs-img" src="images/finding-nemo.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">Finding
+            Nemo</h5>
+          <div class="card-body collapse" id="movie04">
+            <p class="card-text cs-p">Sweet
+              father-son tale, has some very scary moments.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt0266543/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie05"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie05">
+          <img class="card-img-top cs-img" src="images/littlemermaid.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">The
+            Little Mermaid</h5>
+          <div class="card-body collapse" id="movie05">
+            <p class="card-text cs-p">Superb
+              animated musical, has some scary stuff.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt0097757/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie06"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie06">
+          <img class="card-img-top cs-img" src="images/toy-story.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">Toy
+            Story</h5>
+          <div class="card-body collapse" id="movie06">
+            <p class="card-text cs-p">Pixar
+              classic is one of the best kids' movies of all time.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt0114709/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie07"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie07">
+          <img class="card-img-top cs-img" src="images/la-la-land-poster02.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">La
+            La Land</h5>
+          <div class="card-body collapse" id="movie07">
+            <p class="card-text cs-p">Profound,
+              beautiful film about love and creativity.
+
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt3783958/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie08"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie08">
+          <img class="card-img-top cs-img" src="images/school-of-rock.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">School
+            of Rock</h5>
+          <div class="card-body collapse" id="movie08">
+            <p class="card-text cs-p">Standout
+              Jack Black in nerds-become-cool comedy.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt0332379/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie09"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie09">
+          <img class="card-img-top cs-img" src="images/apollo-poster.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">
+            Apollo 13</h5>
+          <div class="card-body collapse" id="movie09">
+            <p class="card-text cs-p">Thrilling,
+              heartwarming, scary, and superb.
+            </p>
+            <br>
+
+            <a href="https://www.imdb.com/title/tt0112384/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2">
+        <div class="card btn-light cs-card-movie-width-cursor" data-toggle="collapse" data-target="#movie10"
+          data-parent="#movieGroup" aria-expanded="false" aria-controls="movie10">
+          <img class="card-img-top cs-img" src="images/the-wind-rises_0.jpg" alt="Card image cap">
+          <h5 class="card-title p-2 text-center cs-card-title-h5">
+            The Wind Rises
+          </h5>
+          <div class="card-body collapse" id="movie10">
+            <p class="card-text cs-p">Lovely,
+              contemplative tale of famed aeronautical engineer.
+            </p>
+            <br>
+            <a href="https://www.imdb.com/title/tt2013293/" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container-fluid justify-content-center align-content-center">
+    <div class="row">
+      <div class="col align-content-center">
+        <ul class="pagination justify-content-center w-100">
+          <li class="page-item disabled"><a class="page-link" href="#">
+              &laquo;</a> </li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link " href="#">....</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+
+          <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer font-small special-color-dark pt-4 bg-dark text-white cs-margin-top-50">
+    <div class="container cs-font-size-25">
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1 " href="https://www.facebook.com">
+            <i class="fa fa-facebook-official"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1 " href="https://twitter.com">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://www.instagram.com">
+            <i class="fa fa-instagram"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://www.brooklynbridgepark.org">
+            <i class="fa fa-globe"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright text-center py-3 text-white">© 2018 Copyright :
+      <a href="#"> BrooklynOutdoorFilmFestival.com</a>
+    </div>
+  </footer>
+</body>
+
+</html>

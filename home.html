@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Brooklyn Outdoor Film Festival</title>
+</head>
+
+<body>
+  <div id="carousel_header" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active cs-carousel-height">
+        <div class="jumbotron jumbotron-fluid text-dark cs-jumbotron-1">
+          <div class="container-fluid text-black-50 h-100 cs-container-jumbotron-white">
+            <h1 class="display-4 font-weight-bold"><span>Brooklyn <br> Outdoor Film Festival</span></h1>
+            <p class="lead">A Festival for all.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item cs-carousel-height">
+        <div class=" jumbotron jumbotron-fluid text-dark cs-jumbotron-2">
+          <div class="container-fluid text-white h-100 cs-container-jumbotron-black">
+            <h1 class="display-4 font-weight-bold"><span>Brooklyn <br> Outdoor Film Festival</span></h1>
+            <p class="lead">A Festival for all.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item cs-carousel-height ">
+        <div class="jumbotron jumbotron-fluid text-dark cs-jumbotron-3">
+          <div class="container-fluid text-white h-100 cs-container-jumbotron-black">
+            <h1 class="display-4 font-weight-bold"><span>Brooklyn <br> Outdoor Film Festival</span></h1>
+            <p class="lead">A Festival for all.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel_header" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel_header" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="nav_bar navbar-dark bg-dark navbar-expand-md p-4">
+    <ul class="nav navbar-nav justify-content-center align-items-center">
+      <li class="nav-item">
+        <a class="nav-link active disabled" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="movies.html">Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="sign-up.html">Sign-up</a>
+      </li>
+
+    </ul>
+  </div>
+  <br>
+  <div id="content" class="container-fluid justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-md-3 ">
+        <!--Weather Carousel-->
+        <div id="weather_Carousel" class="carousel slide text-center d-none d-sm-block d-md-block" data-ride="carousel"
+          data-interval="10000">
+          <div class="card-header"> Weather Forecast</div>
+
+          <div class="carousel-inner cs-carousel-weather-min-height">
+            <div class="carousel-item active">
+              <div class="card">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col">
+                      <img class="card-img-top cs-card-max-width" src="https://vortex.accuweather.com/adc2010/images/slate/icons/06.svg">
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Today 26°</h5>
+                  <p class="card-text">
+                    RealFeel 32°
+                    <br>
+                    Mostly cloudy</p>
+                  <a href="#" class="btn btn-primary">Weather</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col">
+                      <img class="card-img-top cs-card-max-width" src="https://vortex.accuweather.com/adc2010/images/slate/icons/06.svg">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Tomorrow 25°</h5>
+                  <p class="card-text">
+                    RealFeel 30°
+                    <br>
+                    Mostly cloudy</p>
+                  <a href="#" class="btn btn-primary">Weather</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col">
+                      <img class="card-img-top cs-card-max-width" src="https://vortex.accuweather.com/adc2010/images/slate/icons/12.svg">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Day After Tomorrow 24°</h5>
+                  <p class="card-text">
+                    RealFeel 28°
+                    <br>
+                    Cloudy, a couple of showers</p>
+                  <a href="#" class="btn btn-primary">Weather</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#weather_Carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#weather_Carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--Weather Carousel for sm-->
+        <div class="d-block d-sm-none container-fluid">
+          <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-12">
+              <div id="weather_Carousel_sm" class="carousel slide text-center d-block d-md-none" data-ride="carousel"
+                data-interval="10000">
+                <div class="carousel-inner cs-min-height-222">
+                  <div class=" carousel-item active
+                  cs-min-height-222">
+                    <div class="container-fluid ">
+                      <div class="row h-100 justify-content-center align-items-center cs-padding-left-right-30">
+                        <div class="col-6 h-100">
+                          <img class="img-fluid h-100" src="https://vortex.accuweather.com/adc2010/images/slate/icons/12.svg">
+                          <h5 class="card-title">Day After Tomorrow 24°</h5>
+                        </div>
+                        <div class="col-6 text-center h-100 ">
+                          <div class="card-body">
+                            <p class="card-text">
+                              RealFeel 28°
+                              <br>
+                              Cloudy, a couple of showers</p>
+                            <a href="#" class="btn btn-primary">Weather</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-fluid ">
+                      <div class="row h-100 justify-content-center align-items-center cs-padding-left-right-30">
+                        <div class="col-6 h-100">
+                          <img class="img-fluid h-100" src="https://vortex.accuweather.com/adc2010/images/slate/icons/06.svg">
+                          <h5 class="card-title">Tomorrow 25°</h5>
+
+                        </div>
+                        <div class="col-6 text-center h-100 ">
+                          <div class="card-body">
+                            <p class="card-text">
+                              RealFeel 30°
+                              <br>
+                              Mostly cloudy</p>
+                            <a href="#" class="btn btn-primary">Weather</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-fluid ">
+                      <div class="row h-100 justify-content-center align-items-center cs-padding-left-right-30">
+                        <div class="col-6 h-100">
+                          <img class="img-fluid h-100" src="https://vortex.accuweather.com/adc2010/images/slate/icons/06.svg">
+                          <h5 class="card-title">Today 26°</h5>
+
+                        </div>
+                        <div class="col-6 text-center h-100 ">
+                          <div class="card-body">
+                            <p class="card-text">
+                              RealFeel 32°
+                              <br>
+                              Mostly cloudy</p>
+                            <a href="#" class="btn btn-primary">Weather</a>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#weather_Carousel_sm" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#weather_Carousel_sm" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Center -->
+      <div class="col-md-6">
+        <br>
+        <h1>The Metroplex Proudly Present 2018 Broklyn Film Festival</h1>
+        <br>
+        <img src="images/FilmFestival.png" class="img-fluid" alt="Responsive image">
+        <br>
+        <br>
+        <p>
+          Tuesday, August 21st, 2018
+        </p>
+        <br>
+        <p class="lead">
+          Every year the Brooklyn Film Festival donates hundreds of complementary tickets to Brooklyn Schools and
+          offers to Students & Senior Citizens discounted tickets: $12 instead of $15. One of BFF'
+          s oldest programs, KidsFilmFest, an event for and by young filmmakers and film buffs, this year held at Made
+          in NY Media Center by IFP, will be completely free of charge for all the kids and teens attending. Every
+          year, BFF offers totally free of charge BFF Exchange at Kickstarter, a full day of panels, seminars, and film
+          pitching. Throughout the year, BFF offers a number of screenings at various Brooklyn venues/neighborhoods
+          free of change. Although the full schedule is not available yet, it is already confirmed a BFF Showcase at
+          the Brooklyn Museum on December 1, 2018 as part of the Museum's First Saturdays events. This event will be
+          free of charge and the audience will be able to meet the filmmakers after the screenings. </p> <br>
+        <br>
+        <h5>
+          Come join us </h5>
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Brooklyn%20Bridge%20Park&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net">crocothemes.net</a></div>
+          <style>
+            .mapouter {
+              text-align: right;
+              height: 500px;
+              width: 100%;
+            }
+
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 100%;
+            }
+          </style>
+        </div>
+      </div>
+
+      <!-- Right-->
+      <div class="col-md-3">
+        <div id="news_carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+          <ol class="carousel-indicators">
+            <li data-target="#news_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#news_carousel" data-slide-to="1"></li>
+            <li data-target="#news_carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="card-header"> News Snippets</div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://brooklynbridgepark.s3.amazonaws.com/p/4715/profiles/jumbo.jpg" class="cs-height-300"
+                alt="...">
+              <div class="carousel-caption">
+                <h5>Green Team Cancelled Saturday 9/29</h5>
+                <a href="https://www.brooklynbridgepark.org/pages/alerts" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://brooklynbridgepark.s3.amazonaws.com/p/6051/profiles/carousel-medium.jpg" class="cs-height-300"
+                alt="...">
+              <div class="carousel-caption">
+                <h5>Brooklyn Nets 2nd Annual Practice in the Park</h5>
+                <a href="https://www.brooklynbridgepark.org/events/brooklyn-nets-2nd-annual-practice-in-the-park" class="btn btn-dark">Read
+                  more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.brooklynbridgepark.org/img/headers/HDR_Misc-08-medium.jpg" class="cs-height-300"
+                alt="...">
+              <div class="carousel-caption">
+                <h5>Squibb Bridge Update</h5>
+                <a href="https://www.brooklynbridgepark.org/pages/squibb-bridge-closure" class="btn btn-dark">Read
+                  more</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#news_carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#news_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon cs-carousel-weather-bg-black" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <footer class="page-footer font-small special-color-dark pt-4 bg-dark text-white">
+    <div class="container cs-font-container">
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1 " href="https://www.facebook.com">
+            <i class="fa fa-facebook-official"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1 " href="https://twitter.com">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://www.instagram.com">
+            <i class="fa fa-instagram"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://www.brooklynbridgepark.org">
+            <i class="fa fa-globe"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright text-center py-3 text-white">© 2018 Copyright :
+      <a href="#"> BrooklynOutdoorFilmFestival.com</a>
+    </div>
+  </footer>
+</body>
+
+</html>
